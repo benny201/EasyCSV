@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21de7ecd-4314-4315-81f0-c0c464ebd0bb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/benny/util/Demo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/benny/util/ExportCSVUtils.class" afterPath="$PROJECT_DIR$/target/classes/org/benny/util/ExportCSVUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/benny/util/model/CSVFileInfo$CSVFileInfoBuilder.class" afterPath="$PROJECT_DIR$/target/classes/org/benny/util/model/CSVFileInfo$CSVFileInfoBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/benny/util/model/CSVFileInfo.class" afterPath="$PROJECT_DIR$/target/classes/org/benny/util/model/CSVFileInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/benny/util/utils/FileUtil.class" afterPath="$PROJECT_DIR$/target/classes/org/benny/util/utils/FileUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/org/benny/util/AppTest.class" afterPath="$PROJECT_DIR$/target/test-classes/org/benny/util/AppTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EasyCSV.iml" afterPath="$PROJECT_DIR$/EasyCSV.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/benny/util/ExportCSVUtils.java" afterPath="$PROJECT_DIR$/src/main/java/org/benny/util/ExportCSVUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/benny/util/model/CSVFileInfo.java" afterPath="$PROJECT_DIR$/src/main/java/org/benny/util/model/CSVFileInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/benny/util/utils/FileUtil.java" afterPath="$PROJECT_DIR$/src/main/java/org/benny/util/utils/FileUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/org/benny/util/AppTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/benny/util/AppTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,10 +26,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExportCSVUtils.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ExportCSVUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/benny/util/ExportCSVUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2925">
+            <state relative-caret-position="2734">
               <caret line="195" column="1" lean-forward="true" selection-start-line="195" selection-start-column="1" selection-end-line="195" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -55,8 +43,8 @@
       <file leaf-file-name="AppTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/benny/util/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+            <state relative-caret-position="330">
+              <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
               <folding>
                 <element signature="e#379#380#0" expanded="true" />
                 <element signature="e#413#414#0" expanded="true" />
@@ -65,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Demo.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Demo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/benny/util/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="295">
+              <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,9 +124,9 @@
         <option value="$PROJECT_DIR$/src/main/java/org/benny/util/utils/FileUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/benny/util/model/CSVFileInfo.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/benny/util/ExportCSVUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/benny/util/AppTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/benny/util/Demo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/benny/util/ExportCSVUtils.java" />
       </list>
     </option>
   </component>
@@ -490,14 +478,11 @@
       <workItem from="1568212932811" duration="2673000" />
       <workItem from="1568339782351" duration="3668000" />
       <workItem from="1451606560498" duration="16526000" />
-      <workItem from="1568544623503" duration="1154000" />
+      <workItem from="1568544623503" duration="1962000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest_exportCSV - 2019.09.14 at 21h 38m 27s.xml">
-      <configuration name="AppTest.exportCSV" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AppTest_exportCSV - 2019.09.14 at 21h 43m 26s.xml">
       <configuration name="AppTest.exportCSV" configurationId="JUnit" />
     </history-entry>
@@ -525,9 +510,12 @@
     <history-entry file="AppTest_exportCSV - 2019.09.15 at 19h 06m 04s.xml">
       <configuration name="AppTest.exportCSV" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AppTest_exportCSV - 2019.09.15 at 19h 18m 24s.xml">
+      <configuration name="AppTest.exportCSV" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24021000" />
+    <option name="totallyTimeSpent" value="24829000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -995,20 +983,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/benny/util/Demo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/benny/util/ExportCSVUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="2734">
+          <caret line="195" column="1" lean-forward="true" selection-start-line="195" selection-start-column="1" selection-end-line="195" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3145#3146#0" expanded="true" />
+            <element signature="e#3194#3195#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/benny/util/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        <state relative-caret-position="330">
+          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
           <folding>
             <element signature="e#379#380#0" expanded="true" />
             <element signature="e#413#414#0" expanded="true" />
@@ -1016,14 +1006,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/benny/util/ExportCSVUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/benny/util/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2925">
-          <caret line="195" column="1" lean-forward="true" selection-start-line="195" selection-start-column="1" selection-end-line="195" selection-end-column="1" />
+        <state relative-caret-position="295">
+          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3145#3146#0" expanded="true" />
-            <element signature="e#3194#3195#0" expanded="true" />
           </folding>
         </state>
       </provider>
