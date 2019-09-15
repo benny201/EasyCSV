@@ -1,6 +1,7 @@
 package org.benny.util.model;
 
 import lombok.*;
+import org.benny.util.utils.FileUtil;
 
 /**
  * @Author benny
@@ -17,5 +18,5 @@ public class CSVFileInfo extends BaseFileInfo{
     /**
      * total amount of this file's row
      */
-    private Long rowSize;
+    private long rowSize;
 }

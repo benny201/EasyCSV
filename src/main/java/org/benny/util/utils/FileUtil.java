@@ -2,6 +2,8 @@ package org.benny.util.utils;
 
 import java.io.File;
 import java.lang.reflect.Field;
+import java.text.DecimalFormat;
+import java.util.UUID;
 import java.util.regex.Pattern;
 
 /**
@@ -13,13 +15,15 @@ public class FileUtil {
 
     public static final String CSV_TYPE = ".csv";
     public static final String ZIP_TYPE = ".zip";
+    private static final String[] SIZE_UNITS = new String[]{"B", "KB", "MB", "GB", "TB"};
 
     private FileUtil() {
     }
 
     /**
      * get full file path
-     * @param path full path without file name
+     *
+     * @param path     full path without file name
      * @param fileName file name without extension
      * @param fileType file extension
      * @return full path
@@ -30,7 +34,8 @@ public class FileUtil {
 
     /**
      * get full file path
-     * @param path full path without file name
+     *
+     * @param path     full path without file name
      * @param fileName file name with extension
      * @return full path
      */
@@ -40,8 +45,21 @@ public class FileUtil {
         return path + File.separator + fileName;
     }
 
+
+    /**
+     * separate file name from path
+     *
+     * @param path
+     * @return
+     */
+    public static String getFileName(String path) {
+        String[] pathStr = path.split(File.separator);
+        return pathStr.length == 1 ? pathStr[0] : pathStr[pathStr.length - 1];
+    }
+
     /**
      * get extension of a file, .csv/.zip...etc
+     *
      * @param fileName file name with extension
      * @return extension
      */
@@ -56,8 +74,25 @@ public class FileUtil {
         return "." + dots[1];
     }
 
+    /**
+     * convert length to size
+     * @param size
+     */
+    public static String getFileSize(long size) {
+        if (size <= 0) return "0";
+        int digitGroups = (int) (Math.log10(size) / Math.log10(1024));
+        return new DecimalFormat("#,##0.#").format(size / Math.pow(1024, digitGroups)) + " " + SIZE_UNITS[digitGroups];
+    }
+
+
+    public static String getUUID() {
+        return UUID.randomUUID().toString().replaceAll("-", "");
+    }
+
     public static void main(String[] args) {
-        System.out.println(getFileExtension("f.csv"));
+        String path = "f.csv";
+        System.out.println(path);
+        System.out.println(getFileExtension(path));
     }
 
 }
